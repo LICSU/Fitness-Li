@@ -29,6 +29,7 @@ namespace LicsuWeb.Validado
             if (!IsPostBack)
             {                
                 Utilidades.CargarListado(ref dplUnidad, "SELECT ClienteID as VAL, ClienteNombre as TXT FROM Cliente", cn, ref Err, true);
+                BindGridView();
             }
         }
 

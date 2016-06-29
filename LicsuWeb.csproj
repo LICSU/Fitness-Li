@@ -377,6 +377,7 @@
     <Content Include="Validado\plantillas\bienvenidaSura.html" />
     <Content Include="Validado\plantillas\proximoVencer.html" />
     <Content Include="Validado\rClienteEmpGen.aspx" />
+    <Content Include="Validado\reporteCalificaciones.aspx" />
     <Content Include="Validado\ReportesUsuarios.aspx" />
     <Content Include="Validado\ReservaAlumnoLicsu.aspx" />
     <Content Include="Validado\Salones.aspx" />
@@ -861,6 +862,13 @@
     </Compile>
     <Compile Include="Validado\rClienteEmpGen.aspx.designer.cs">
       <DependentUpon>rClienteEmpGen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Validado\reporteCalificaciones.aspx.cs">
+      <DependentUpon>reporteCalificaciones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Validado\reporteCalificaciones.aspx.designer.cs">
+      <DependentUpon>reporteCalificaciones.aspx</DependentUpon>
     </Compile>
     <Compile Include="Validado\ReportesUsuarios.aspx.cs">
       <DependentUpon>ReportesUsuarios.aspx</DependentUpon>
