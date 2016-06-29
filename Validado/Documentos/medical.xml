@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Medical xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Clase>
+    <Nombre>Medidas y Riesgo Cardio A</Nombre>
+    <Fecha>14/04/2016</Fecha>
+    <Hora>15:00</Hora>
+    <Intervalo>5</Intervalo>
+    <Sensor>1</Sensor>
+  </Clase>
+  <Usuario />
+</Medical>

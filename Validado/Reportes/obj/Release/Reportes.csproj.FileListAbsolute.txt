@@ -1,0 +1,5 @@
+C:\inetpub\wwwroot\LicsuWeb\Validado\Reportes\obj\Release\ResolveAssemblyReference.cache
+C:\inetpub\wwwroot\LicsuWeb\Validado\Reportes\obj\Release\Reportes.Properties.Resources.resources
+C:\inetpub\wwwroot\LicsuWeb\Validado\Reportes\obj\Release\Reportes.csproj.GenerateResource.Cache
+C:\inetpub\wwwroot\LicsuWeb\Validado\Reportes\obj\Release\RdlCompile.cache
+C:\inetpub\wwwroot\LicsuWeb\Validado\Reportes\obj\Release\RdlCompile.compiled

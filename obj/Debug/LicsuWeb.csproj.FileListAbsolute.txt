@@ -1,0 +1,9 @@
+C:\Users\Roberth\Documents\Visual Studio 2012\WebSites\SistemaNuevo\obj\Debug\Interop.ADODB.dll
+C:\Users\Roberth\Documents\Visual Studio 2012\WebSites\SistemaNuevo\obj\Debug\LicsuWeb.csproj.ResolveComReference.cache
+C:\Users\Roberth\Documents\Visual Studio 2012\WebSites\SistemaNuevo\obj\Debug\RdlCompile.cache
+C:\Users\Roberth\Documents\Visual Studio 2012\WebSites\SistemaNuevo\obj\Debug\RdlCompile.compiled
+C:\Users\Roberth\Documents\Visual Studio 2012\WebSites\SistemaNuevo\bin\LicsuWeb.dll
+C:\Users\Roberth\Documents\Visual Studio 2012\WebSites\SistemaNuevo\bin\LicsuWeb.pdb
+C:\Users\Roberth\Documents\Visual Studio 2012\WebSites\SistemaNuevo\obj\Debug\LicsuWeb.dll
+C:\Users\Roberth\Documents\Visual Studio 2012\WebSites\SistemaNuevo\obj\Debug\LicsuWeb.pdb
+C:\Users\Roberth\Documents\Visual Studio 2012\WebSites\SistemaNuevo\obj\Debug\LicsuWeb.csprojResolveAssemblyReference.cache

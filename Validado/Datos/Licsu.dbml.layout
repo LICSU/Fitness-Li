@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 9.5" name="Licsu">
+  <DataContextMoniker Name="/LicsuDataContext" />
+  <nestedChildShapes>
+    <classShape Id="41f2bf9b-f8bd-4f33-941f-753711637a86" absoluteBounds="5.5, 5.125, 2, 4.0785139973958326">
+      <DataClassMoniker Name="/LicsuDataContext/Usuario" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b8ef4c3c-4fe8-4205-9878-3b4b4bc35790" absoluteBounds="5.515, 5.585, 1.9700000000000002, 3.518513997395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="licsu_web" Class="LicsuDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=JERZY-PC\SQLEXPRESS;Initial Catalog=licsu_web;User ID=Licsu" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="licsu_webConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Usuario" Member="Usuarios">
+    <Type Name="Usuario">
+      <Column Name="UsuarioID" Type="System.Int64" DbType="BigInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="UsuarioCedula" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="UsuarioClave" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="UsuarioNombre" Type="System.String" DbType="VarChar(60) NOT NULL" CanBeNull="false" />
+      <Column Name="UsuarioApellido" Type="System.String" DbType="VarChar(60) NOT NULL" CanBeNull="false" />
+      <Column Name="UsuarioCorreo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="UsuarioFechaNacimiento" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UsuarioEstadoCivil" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Column Name="UsuarioSexo" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Column Name="UsuarioTelefono" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="UsuarioCelular1" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="UsuarioCelular2" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="UsuarioObservacion" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="UsuarioActivo" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="UsuarioFechaRegistro" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="UsuarioUsuarioRegistro" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="UsuarioFoto" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

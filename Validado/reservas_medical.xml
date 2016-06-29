@@ -1,0 +1,23 @@
+<Medical>
+  <clase>
+    <nombre>Medical</nombre>
+    <fecha>08/04/2016</fecha>
+    <hora>12:00</hora>
+    <intervalo>10</intervalo>
+    <sensor>3</sensor>
+  </clase>
+  <usuario>
+    <cedula>21982076</cedula>
+    <nombre>Bertha Isaza Durango</nombre>
+    <turno>1</turno>
+    <horainicial>12:00:00</horainicial>
+    <horafinal>12:10:00</horafinal>
+  </usuario>
+  <usuario>
+    <cedula>1214714991</cedula>
+    <nombre>maryileidy arias naranjo</nombre>
+    <turno>1</turno>
+    <horainicial>12:00:00</horainicial>
+    <horafinal>12:10:00</horafinal>
+  </usuario>
+</Medical>

@@ -1,0 +1,954 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo es utilizado por el proceso de paquete/publicación de nuestro proyecto Web. Puede personalizar el comportamiento de este proceso
+editando este archivo MSBuild. Para conocer más acerca de esto, visite http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAtYpMPEKQp0+BRhFudMMY2QAAAAACAAAAAAAQZgAAAAEAACAAAAArxsj8rO1pQ/nyr7hnM+Yh7khNntZO1Z3kiZ1gC2QAsgAAAAAOgAAAAAIAACAAAAA8tpLTB+08VT4CZilRwDYE1qd41Gcsq3YbYqukrJJbLyAAAADnIysypdyhCv5HjstsRQy1jh3Hp96y0/bUcWZ3K0W4b0AAAAArLkyAJh7JlUsCP3FzOu2ew5JEMuxEPZ+A1MkDC30cSoI1cbxgcRSk99C+kIs27wZSGQfMoZy08umpPCY50sO6</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/FUA.dll">
+      <publishTime>07/27/2007 17:42:26</publishTime>
+    </File>
+    <File Include="bin/itextsharp.dll">
+      <publishTime>11/27/2015 10:31:07</publishTime>
+    </File>
+    <File Include="bin/LicsuWeb.dll">
+      <publishTime>03/30/2016 09:56:00</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ReportViewer.Common.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ReportViewer.ProcessingObjectModel.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ReportViewer.WebForms.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Reports.dll">
+      <publishTime>11/12/2006 16:36:25</publishTime>
+    </File>
+    <File Include="Contactanos.aspx">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Content/assets/css/bootstrap.css">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Content/assets/css/custom.css">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Content/assets/css/font-awesome.css">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Content/assets/font-awesome/fonts/fontawesome-webfontba72.eot">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Content/assets/font-awesome/fonts/fontawesome-webfontba72.svg">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Content/assets/font-awesome/fonts/fontawesome-webfontba72.ttf">
+      <publishTime>04/11/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Content/assets/font-awesome/fonts/fontawesome-webfontba72.woff">
+      <publishTime>04/11/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Content/assets/font-awesome/fonts/fontawesome-webfontd41d.eot">
+      <publishTime>04/11/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Content/assets/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>04/11/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Content/assets/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>04/11/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Content/assets/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>04/11/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Content/assets/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>04/11/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Content/assets/fonts/glyphicons-halflings-regulard41d.eot">
+      <publishTime>04/11/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Content/assets/img/1.png">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Content/assets/img/2.png">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Content/assets/img/3.png">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Content/assets/img/4.png">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Content/assets/img/find_user.png">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Content/assets/img/profile_man.jpg">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Content/assets/img/profile_woman.jpg">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Content/assets/js/bootstrap.min.js">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Content/assets/js/custom.js">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Content/assets/js/dataTables/dataTables.bootstrap.css">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Content/assets/js/dataTables/dataTables.bootstrap.js">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Content/assets/js/dataTables/jquery.dataTables.js">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Content/assets/js/jquery-1.10.2.js">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Content/assets/js/jquery.metisMenu.js">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Content/assets/js/morris/morris-0.4.3.min.css">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Content/assets/js/morris/morris.js">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Content/assets/js/morris/raphael-2.1.0.min.js">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css">
+      <publishTime>11/05/2015 17:43:22</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css.map">
+      <publishTime>11/05/2015 17:43:22</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css">
+      <publishTime>11/05/2015 17:43:20</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>11/05/2015 17:43:22</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>11/05/2015 17:43:22</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>11/05/2015 17:43:22</publishTime>
+    </File>
+    <File Include="crearUsuarios1.aspx">
+      <publishTime>03/15/2016 12:49:46</publishTime>
+    </File>
+    <File Include="css/bootstrap.css">
+      <publishTime>04/11/2015 10:24:47</publishTime>
+    </File>
+    <File Include="css/font-awesome.css">
+      <publishTime>11/04/2015 10:24:47</publishTime>
+    </File>
+    <File Include="css/formValidation/formValidation.min.css">
+      <publishTime>11/04/2015 10:24:47</publishTime>
+    </File>
+    <File Include="css/index.css">
+      <publishTime>11/04/2015 10:24:47</publishTime>
+    </File>
+    <File Include="css/site_global.css">
+      <publishTime>11/04/2015 10:24:47</publishTime>
+    </File>
+    <File Include="css/styles.css">
+      <publishTime>03/15/2016 08:59:09</publishTime>
+    </File>
+    <File Include="font-awesome/fonts/fontawesome-webfontba72.eot">
+      <publishTime>11/04/2015 10:24:47</publishTime>
+    </File>
+    <File Include="font-awesome/fonts/fontawesome-webfontba72.svg">
+      <publishTime>11/04/2015 10:24:47</publishTime>
+    </File>
+    <File Include="font-awesome/fonts/fontawesome-webfontba72.ttf">
+      <publishTime>11/04/2015 10:24:47</publishTime>
+    </File>
+    <File Include="font-awesome/fonts/fontawesome-webfontba72.woff">
+      <publishTime>11/04/2015 10:24:47</publishTime>
+    </File>
+    <File Include="font-awesome/fonts/fontawesome-webfontd41d.eot">
+      <publishTime>11/04/2015 10:24:47</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>11/05/2015 17:43:20</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>11/05/2015 17:43:20</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>11/05/2015 17:43:20</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>11/05/2015 17:43:20</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>11/05/2015 17:43:20</publishTime>
+    </File>
+    <File Include="Images/1-u2347.jpg">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Images/2.jpg">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Images/agregar.png">
+      <publishTime>02/24/2016 12:27:34</publishTime>
+    </File>
+    <File Include="Images/cargando2.gif">
+      <publishTime>02/20/2016 12:08:43</publishTime>
+    </File>
+    <File Include="Images/circulo1.png">
+      <publishTime>03/10/2016 10:24:28</publishTime>
+    </File>
+    <File Include="Images/clientes.jpg">
+      <publishTime>03/07/2016 13:24:46</publishTime>
+    </File>
+    <File Include="Images/colesterol.png">
+      <publishTime>02/23/2016 13:54:05</publishTime>
+    </File>
+    <File Include="Images/columna1.jpg">
+      <publishTime>03/07/2016 12:58:36</publishTime>
+    </File>
+    <File Include="Images/columna2.jpg">
+      <publishTime>03/07/2016 13:24:56</publishTime>
+    </File>
+    <File Include="Images/descargar.png">
+      <publishTime>02/24/2016 12:27:37</publishTime>
+    </File>
+    <File Include="Images/editar.png">
+      <publishTime>02/24/2016 12:38:18</publishTime>
+    </File>
+    <File Include="Images/electro.png">
+      <publishTime>02/23/2016 13:49:27</publishTime>
+    </File>
+    <File Include="Images/eliminar.png">
+      <publishTime>02/24/2016 12:38:23</publishTime>
+    </File>
+    <File Include="Images/epm.jpg">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Images/fondoVideo.jpg">
+      <publishTime>03/15/2016 08:33:24</publishTime>
+    </File>
+    <File Include="Images/glucosa.png">
+      <publishTime>02/23/2016 13:53:00</publishTime>
+    </File>
+    <File Include="Images/image1.jpg">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Images/image2.jpg">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Images/image3.jpg">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Images/image4.jpg">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Images/img_20140319_113856.jpg">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Images/img_20140319_114742.jpg">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Images/img_20140319_120236.jpg">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Images/Li.jpg">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Images/licsu.jpg">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Images/licsu_blanco_grande.png">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Images/Logo1.png">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Images/logo_fitness.png">
+      <publishTime>02/22/2016 11:25:09</publishTime>
+    </File>
+    <File Include="Images/matrices.png">
+      <publishTime>02/22/2016 15:42:15</publishTime>
+    </File>
+    <File Include="Images/medidas.png">
+      <publishTime>02/23/2016 13:52:11</publishTime>
+    </File>
+    <File Include="Images/medidas_1.jpg">
+      <publishTime>02/23/2016 18:15:51</publishTime>
+    </File>
+    <File Include="Images/menu.png">
+      <publishTime>02/23/2016 14:27:42</publishTime>
+    </File>
+    <File Include="Images/progress.gif">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Images/riesgos.png">
+      <publishTime>02/22/2016 15:43:28</publishTime>
+    </File>
+    <File Include="Images/salir.png">
+      <publishTime>02/23/2016 13:47:06</publishTime>
+    </File>
+    <File Include="Images/sura.jpg">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Images/tension.png">
+      <publishTime>02/23/2016 13:33:34</publishTime>
+    </File>
+    <File Include="Images/TrebuchetMS.ttf">
+      <publishTime>02/24/2016 13:51:14</publishTime>
+    </File>
+    <File Include="Images/u1756-8.png">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Images/u1757-4.png">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Images/u1950-4.png">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Images/u1951-4.png">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Images/u1952-4.png">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Images/u2012-4.png">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Images/u2013-8.png">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Images/u2077-4.png">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Images/u2080-4.png">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Images/u2299-4.png">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Images/u2300-10.png">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Images/u2302-30.png">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Images/u2305-4.png">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Images/u2307-4.png">
+      <publishTime>11/04/2015 10:24:45</publishTime>
+    </File>
+    <File Include="Images/u2309-4.png">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Images/ver.png">
+      <publishTime>02/24/2016 12:38:13</publishTime>
+    </File>
+    <File Include="index.aspx">
+      <publishTime>03/15/2016 08:45:21</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="js1/scripts.js">
+      <publishTime>11/21/2015 07:30:58</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>11/05/2015 17:43:22</publishTime>
+    </File>
+    <File Include="Plantillas/formulario-contacto.html">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Plantillas/images/Archive.zip">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Plantillas/images/banner-template.png">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Plantillas/images/cm-logo-double.gif">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Plantillas/images/cm-logo-double.png">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Plantillas/images/cm-logo-small.gif">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Plantillas/images/cm-logo.gif">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Plantillas/images/facebook.gif">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Plantillas/images/flickr.gif">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Plantillas/images/forward.gif">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Plantillas/images/gallery.png">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Plantillas/images/gallery1.jpg">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Plantillas/images/gallery10.jpg">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Plantillas/images/gallery2.jpg">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Plantillas/images/gallery3.jpg">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Plantillas/images/gallery4.jpg">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Plantillas/images/gallery5.jpg">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Plantillas/images/gallery6.jpg">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Plantillas/images/gallery7.jpg">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Plantillas/images/gallery8.jpg">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Plantillas/images/gallery9.jpg">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Plantillas/images/header-fallback.png">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Plantillas/images/header.jpg">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Plantillas/images/like.gif">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Plantillas/images/spacer.gif">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Plantillas/images/tweet.gif">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Plantillas/images/twitter.gif">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Plantillas/images/widget-hero1.png">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Plantillas/images/widget-hero2.png">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Plantillas/images/widget-hero3.png">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Plantillas/images/widget-hero4.png">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Plantillas/images/widget-logo.png">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Plantillas/images/widget-logo2.png">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Plantillas/images/widget-logo3.png">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Plantillas/images/widget-logo4.png">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Registro.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="scripts.js">
+      <publishTime>03/05/2016 16:52:47</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>11/05/2015 17:43:20</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Scripts/formValidation/bootstrap.min.js">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Scripts/formValidation/formValidation.min.js">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Scripts/formValidation/language/es_ES.js">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.9.1.js">
+      <publishTime>11/05/2015 17:43:06</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.9.1.min.js">
+      <publishTime>05/11/2015 17:43:06</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.9.1.min.map">
+      <publishTime>11/05/2015 17:43:06</publishTime>
+    </File>
+    <File Include="Scripts/jquery.museoverlay.js">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Scripts/jquery.tobrowserwidth.js">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Scripts/jquery.watch.js">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Scripts/museutils.js">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Scripts/musewpslideshow.js">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Scripts/touchswipe.js">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Scripts/webpro.js">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="selectEmpresa1.aspx">
+      <publishTime>02/16/2016 08:11:44</publishTime>
+    </File>
+    <File Include="styles.css">
+      <publishTime>03/05/2016 16:53:09</publishTime>
+    </File>
+    <File Include="Validado/AgregarArchivos.aspx">
+      <publishTime>03/09/2016 16:46:21</publishTime>
+    </File>
+    <File Include="Validado/AgregarAsistencia.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Validado/AgregarReservaAdmin.aspx">
+      <publishTime>01/10/2016 22:23:32</publishTime>
+    </File>
+    <File Include="Validado/AlumnoClases.aspx">
+      <publishTime>12/16/2015 10:23:57</publishTime>
+    </File>
+    <File Include="Validado/AlumnoClasesC.aspx">
+      <publishTime>12/16/2015 11:00:39</publishTime>
+    </File>
+    <File Include="Validado/AlumnosEmpresa.aspx">
+      <publishTime>02/25/2016 09:28:45</publishTime>
+    </File>
+    <File Include="Validado/AsignarNivel.aspx">
+      <publishTime>02/25/2016 14:50:01</publishTime>
+    </File>
+    <File Include="Validado/AsignarPlanes.aspx">
+      <publishTime>03/05/2016 07:25:21</publishTime>
+    </File>
+    <File Include="Validado/AsignarTema.aspx">
+      <publishTime>01/18/2016 14:31:37</publishTime>
+    </File>
+    <File Include="Validado/Asistencias.aspx">
+      <publishTime>02/25/2016 12:55:52</publishTime>
+    </File>
+    <File Include="Validado/Autorizacion.aspx">
+      <publishTime>02/24/2016 19:30:13</publishTime>
+    </File>
+    <File Include="Validado/Bonos.aspx">
+      <publishTime>03/01/2016 10:25:59</publishTime>
+    </File>
+    <File Include="Validado/BusquedaPorAlumno.aspx">
+      <publishTime>03/10/2016 15:17:21</publishTime>
+    </File>
+    <File Include="Validado/Calificacion.aspx">
+      <publishTime>02/24/2016 21:08:31</publishTime>
+    </File>
+    <File Include="Validado/CalificacionesAlumno.aspx">
+      <publishTime>02/24/2016 14:01:56</publishTime>
+    </File>
+    <File Include="Validado/cargarEmpresa.aspx">
+      <publishTime>02/25/2016 12:23:04</publishTime>
+    </File>
+    <File Include="Validado/cargarVideosAdmin.aspx">
+      <publishTime>03/09/2016 18:05:04</publishTime>
+    </File>
+    <File Include="Validado/ClaseAlumno.aspx">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Validado/ClaseProfesor.aspx">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Validado/Clases.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Validado/ClasesHistorico.aspx">
+      <publishTime>03/10/2016 18:09:37</publishTime>
+    </File>
+    <File Include="Validado/ClienteEmpleado.aspx">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Validado/ClienteEmpleadoConfig.aspx">
+      <publishTime>01/04/2016 21:08:27</publishTime>
+    </File>
+    <File Include="Validado/Codigos.aspx">
+      <publishTime>02/10/2016 10:27:21</publishTime>
+    </File>
+    <File Include="Validado/configurarParametro.aspx">
+      <publishTime>01/25/2016 20:28:31</publishTime>
+    </File>
+    <File Include="Validado/ConsultarAlumnos.aspx">
+      <publishTime>02/25/2016 12:44:44</publishTime>
+    </File>
+    <File Include="Validado/ConsultarCalificaciones.aspx">
+      <publishTime>12/16/2015 10:52:29</publishTime>
+    </File>
+    <File Include="Validado/ConsultarClases.aspx">
+      <publishTime>02/25/2016 12:51:30</publishTime>
+    </File>
+    <File Include="Validado/ConsultarClasesAlumno.aspx">
+      <publishTime>03/10/2016 18:26:57</publishTime>
+    </File>
+    <File Include="Validado/ConsultarUsuarios.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Validado/CorreoEmpresa.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Validado/CorreoIndividual.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Validado/CorreoTodos.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Validado/CrearClases.aspx">
+      <publishTime>08/11/2015 20:32:36</publishTime>
+    </File>
+    <File Include="Validado/CrearUsuarios.aspx">
+      <publishTime>02/02/2016 18:47:34</publishTime>
+    </File>
+    <File Include="Validado/css/bootstrap-datepicker.css">
+      <publishTime>12/03/2015 13:03:34</publishTime>
+    </File>
+    <File Include="Validado/css/bootstrap-datetimepicker.min.css">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Validado/css/bootstrap.css">
+      <publishTime>02/23/2016 23:49:03</publishTime>
+    </File>
+    <File Include="Validado/css/bootstrap.min.css">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Validado/css/custom.css">
+      <publishTime>02/24/2016 14:22:45</publishTime>
+    </File>
+    <File Include="Validado/css/font-awesome.css">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Validado/css/formValidation/formValidation.min.css">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Validado/css/ingreso.css">
+      <publishTime>02/24/2016 08:24:47</publishTime>
+    </File>
+    <File Include="Validado/css/jquery.ui.all.css">
+      <publishTime>02/27/2010 22:27:30</publishTime>
+    </File>
+    <File Include="Validado/Datos/Licsu.dbml">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Validado/DetallesUsuario.aspx">
+      <publishTime>07/12/2015 17:41:49</publishTime>
+    </File>
+    <File Include="Validado/Elementos.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Validado/EmpleadosActivos.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Validado/EmpleadosReservas.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Validado/Empresas.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Validado/EnviarCorreos.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Validado/Evaluaciones.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Validado/EvaluarAlumno.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Validado/font-awesome/fonts/fontawesome-webfontba72.eot">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Validado/font-awesome/fonts/fontawesome-webfontba72.svg">
+      <publishTime>11/04/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Validado/font-awesome/fonts/fontawesome-webfontba72.ttf">
+      <publishTime>04/11/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Validado/font-awesome/fonts/fontawesome-webfontba72.woff">
+      <publishTime>04/11/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Validado/font-awesome/fonts/fontawesome-webfontd41d.eot">
+      <publishTime>04/11/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Validado/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>04/11/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Validado/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>04/11/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Validado/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>04/11/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Validado/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>04/11/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Validado/fonts/glyphicons-halflings-regulard41d.eot">
+      <publishTime>04/11/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Validado/FormularioPrueba.aspx">
+      <publishTime>06/01/2016 22:10:57</publishTime>
+    </File>
+    <File Include="Validado/Imagenes/AlumnoALibre.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Validado/Imagenes/AlumnoAOcupado.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Validado/Imagenes/AlumnoBLibre.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Validado/Imagenes/AlumnoBOcupado.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Validado/Imagenes/AlumnoCLibre.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Validado/Imagenes/AlumnoCOcupado.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Validado/Imagenes/AlumnoDLibre.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Validado/Imagenes/AlumnoDOcupado.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Validado/Imagenes/frenteA.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Validado/Imagenes/frenteB.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Validado/Imagenes/frenteC.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Validado/Imagenes/frenteD.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Validado/Imagenes/imagenEjemplo.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Validado/Imagenes/imagenEjemplo.png">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Validado/Imagenes/libre.png">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Validado/Imagenes/ocupado.png">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Validado/img/1.png">
+      <publishTime>04/11/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Validado/img/2.png">
+      <publishTime>04/11/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Validado/img/3.png">
+      <publishTime>04/11/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Validado/img/4.png">
+      <publishTime>04/11/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Validado/img/find_user.png">
+      <publishTime>04/11/2015 10:24:47</publishTime>
+    </File>
+    <File Include="Validado/img/loading.gif">
+      <publishTime>04/11/2015 10:24:47</publishTime>
+    </File>
+    <File Include="Validado/img/profile_man.jpg">
+      <publishTime>04/11/2015 10:24:47</publishTime>
+    </File>
+    <File Include="Validado/img/profile_woman.jpg">
+      <publishTime>04/11/2015 10:24:47</publishTime>
+    </File>
+    <File Include="Validado/Ingreso.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Validado/Inicio.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Validado/js/bootstrap-datepicker.js">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Validado/js/bootstrap-datetimepicker.min.js">
+      <publishTime>04/11/2015 10:24:47</publishTime>
+    </File>
+    <File Include="Validado/js/bootstrap.min.js">
+      <publishTime>04/11/2015 10:24:47</publishTime>
+    </File>
+    <File Include="Validado/js/custom.js">
+      <publishTime>04/11/2015 10:24:47</publishTime>
+    </File>
+    <File Include="Validado/js/dataTables/dataTables.bootstrap.css">
+      <publishTime>04/11/2015 10:24:47</publishTime>
+    </File>
+    <File Include="Validado/js/dataTables/dataTables.bootstrap.js">
+      <publishTime>04/11/2015 10:24:47</publishTime>
+    </File>
+    <File Include="Validado/js/dataTables/jquery.dataTables.js">
+      <publishTime>04/11/2015 10:24:47</publishTime>
+    </File>
+    <File Include="Validado/js/datetimepicker.es.js">
+      <publishTime>02/12/2015 22:35:26</publishTime>
+    </File>
+    <File Include="Validado/js/formValidation/bootstrap.min.js">
+      <publishTime>04/11/2015 10:24:47</publishTime>
+    </File>
+    <File Include="Validado/js/formValidation/formValidation.min.js">
+      <publishTime>04/11/2015 10:24:47</publishTime>
+    </File>
+    <File Include="Validado/js/formValidation/language/es_ES.js">
+      <publishTime>04/11/2015 10:24:47</publishTime>
+    </File>
+    <File Include="Validado/js/funciones.js">
+      <publishTime>04/11/2015 10:24:47</publishTime>
+    </File>
+    <File Include="Validado/js/ingreso.js">
+      <publishTime>04/11/2015 10:24:47</publishTime>
+    </File>
+    <File Include="Validado/js/jquery-1.10.2.js">
+      <publishTime>04/11/2015 10:24:47</publishTime>
+    </File>
+    <File Include="Validado/js/jquery.blockUI.js">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Validado/js/jquery.metisMenu.js">
+      <publishTime>04/11/2015 10:24:47</publishTime>
+    </File>
+    <File Include="Validado/js/jquery.ui.autocomplete.js">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Validado/js/jquery.ui.core.js">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Validado/js/jquery.ui.position.js">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Validado/js/jquery.ui.widget.js">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Validado/js/moment-with-locales.min.js">
+      <publishTime>04/11/2015 10:24:47</publishTime>
+    </File>
+    <File Include="Validado/js/moment.min.js">
+      <publishTime>04/11/2015 10:24:47</publishTime>
+    </File>
+    <File Include="Validado/js/morris/morris-0.4.3.min.css">
+      <publishTime>04/11/2015 10:24:47</publishTime>
+    </File>
+    <File Include="Validado/js/morris/morris.js">
+      <publishTime>04/11/2015 10:24:47</publishTime>
+    </File>
+    <File Include="Validado/js/morris/raphael-2.1.0.min.js">
+      <publishTime>04/11/2015 10:24:47</publishTime>
+    </File>
+    <File Include="Validado/MostrarReservas.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Validado/Niveles.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Validado/Pagos.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Validado/PagosAlumno.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Validado/Perfil.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Validado/Planes.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Validado/Plantilla.aspx">
+      <publishTime>10/02/2016 12:03:19</publishTime>
+    </File>
+    <File Include="Validado/rClienteEmpGen.aspx">
+      <publishTime>04/01/2016 19:57:05</publishTime>
+    </File>
+    <File Include="Validado/Reportes/ClienteEmpGen.rdlc">
+      <publishTime>04/11/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Validado/Reportes/dsReportes.xsc">
+      <publishTime>04/11/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Validado/Reportes/dsReportes.xss">
+      <publishTime>04/11/2015 10:24:46</publishTime>
+    </File>
+    <File Include="Validado/ReservaAlumnoLicsu.aspx">
+      <publishTime>10/02/2016 14:17:39</publishTime>
+    </File>
+    <File Include="Validado/Salones.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Validado/selectEmpresa.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Validado/SubirVideo.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Validado/TipoCalificacion.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Validado/TotalEmpleados.aspx">
+      <publishTime>11/02/2016 16:23:41</publishTime>
+    </File>
+    <File Include="Validado/ucEncabezado.ascx">
+      <publishTime>04/11/2015 10:24:47</publishTime>
+    </File>
+    <File Include="Validado/ucFooter.ascx">
+      <publishTime>04/11/2015 10:24:47</publishTime>
+    </File>
+    <File Include="Validado/ucHeader.ascx">
+      <publishTime>11/04/2015 10:24:47</publishTime>
+    </File>
+    <File Include="Validado/ucMenu.ascx">
+      <publishTime>02/22/2016 12:20:40</publishTime>
+    </File>
+    <File Include="Validado/usuariosActivos.aspx">
+      <publishTime>03/14/2016 14:35:16</publishTime>
+    </File>
+    <File Include="Validado/verCalificaciones.aspx">
+      <publishTime>01/02/2016 07:23:02</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/11/2016 10:37:15</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

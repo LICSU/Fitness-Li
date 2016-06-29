@@ -1,0 +1,123 @@
+﻿body {
+}
+.form-signin
+{
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading, .form-signin .checkbox
+{
+    margin-bottom: 10px;
+}
+.form-signin .checkbox
+{
+    font-weight: normal;
+}
+.form-signin .form-control
+{
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-signin .form-control:focus
+{
+    z-index: 2;
+}
+.form-signin input[type="text"]
+{
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"]
+{
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.account-wall
+{
+    margin-top: 20px;
+    padding: 40px 0px 20px 0px;
+    background-color: #f7f7f7;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.login-title
+{
+    color: #555;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+}
+.profile-img
+{
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.need-help
+{
+    margin-top: 10px;
+}
+.new-account
+{
+    display: block;
+    margin-top: 10px;
+}
+
+.text-primary{
+  color: rgb(142, 36, 140);
+}
+.btn-purple {
+  color: #fff;
+  background-color: #8E248C;
+  border-color: #8E248C;
+}
+
+.btn-purple:hover,
+.btn-purple:focus,
+.btn-purple:active,
+.btn-purple.active,
+.open .dropdown-toggle.btn-purple {
+  color: #fff;
+  background-color: #69008C;
+  border-color: #5c0f75;
+}
+.btn-purple:active,
+.btn-purple.active,
+.open .dropdown-toggle.btn-purple {
+  background-image: none;
+}
+.btn-purple.disabled,
+.btn-purple[disabled],
+fieldset[disabled] .btn-purple,
+.btn-purple.disabled:hover,
+.btn-purple[disabled]:hover,
+fieldset[disabled] .btn-purple:hover,
+.btn-purple.disabled:focus,
+.btn-purple[disabled]:focus,
+fieldset[disabled] .btn-purple:focus,
+.btn-purple.disabled:active,
+.btn-purple[disabled]:active,
+fieldset[disabled] .btn-purple:active,
+.btn-purple.disabled.active,
+.btn-purple[disabled].active,
+fieldset[disabled] .btn-purple.active {
+  background-color: #670b85;
+  border-color: #620680;
+}
+.btn-purple .badge {
+  color: #428bca;
+  background-color: #fff;
+}
