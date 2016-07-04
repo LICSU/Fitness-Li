@@ -8,3 +8,13 @@ C:\Users\Roberth\Documents\Visual Studio 2012\Projects\LicsuWeb\obj\Release\RdlC
 C:\Users\Roberth\Documents\Visual Studio 2012\Projects\LicsuWeb\obj\Release\RdlCompile.compiled
 C:\Users\Roberth\Documents\Visual Studio 2012\Projects\LicsuWeb\obj\Release\LicsuWeb.dll
 C:\Users\Roberth\Documents\Visual Studio 2012\Projects\LicsuWeb\obj\Release\LicsuWeb.pdb
+C:\Users\Roberth\Documents\GitHub\Fitness-Li\bin\LicsuWeb.dll
+C:\Users\Roberth\Documents\GitHub\Fitness-Li\bin\LicsuWeb.pdb
+C:\Users\Roberth\Documents\GitHub\Fitness-Li\obj\Release\Interop.ADODB.dll
+C:\Users\Roberth\Documents\GitHub\Fitness-Li\obj\Release\LicsuWeb.csproj.ResolveComReference.cache
+C:\Users\Roberth\Documents\GitHub\Fitness-Li\obj\Release\LicsuWeb.Properties.Resources.resources
+C:\Users\Roberth\Documents\GitHub\Fitness-Li\obj\Release\LicsuWeb.csproj.GenerateResource.Cache
+C:\Users\Roberth\Documents\GitHub\Fitness-Li\obj\Release\RdlCompile.cache
+C:\Users\Roberth\Documents\GitHub\Fitness-Li\obj\Release\RdlCompile.compiled
+C:\Users\Roberth\Documents\GitHub\Fitness-Li\obj\Release\LicsuWeb.dll
+C:\Users\Roberth\Documents\GitHub\Fitness-Li\obj\Release\LicsuWeb.pdb

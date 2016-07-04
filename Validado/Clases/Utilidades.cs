@@ -434,6 +434,7 @@ namespace LicsuWeb.Validado.Clases
                 if (lst.ID == "dplTipoPar") seleccione = "Seleccione el Tipo";
                 if (lst.ID == "dplPlan") seleccione = "Seleccione el Plan";
                 if (lst.ID == "dplProfesor") seleccione = "Seleccione el Profesor";
+                if (lst.ID == "ddlMeses") seleccione = "Seleccione el Mes";
                 if (lst.ID != "txtSucursal")
                     if (bIndex0)
                     {
