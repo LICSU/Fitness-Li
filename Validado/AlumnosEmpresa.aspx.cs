@@ -175,10 +175,13 @@ namespace LicsuWeb.Validado
                 {
                     PlanAlumnoID = int.Parse(maxPlanAlumno.Trim()) + 1;
                 }
+                sSelectSQL = "UPDATE PlanEmpresa set PlanActivo = 0 WHERE (PlanEmpresa.EstadoProximo = 0) AND (Month(mesProximo) = Month (getDate()))";
+                Utilidades.EjeSQL(sSelectSQL, cn, ref Err, false);
+
                 sSelectSQL = "SELECT COUNT(DISTINCT(Usuario.UsuarioID)) FROM PlanEmpresa INNER JOIN Usuario ON "
                            +" PlanEmpresa.UsuarioID = Usuario.UsuarioID INNER JOIN UsuarioRol ON Usuario.UsuarioID = "
                            +" UsuarioRol.UsuarioID INNER JOIN Cliente ON UsuarioRol.ClienteID = Cliente.ClienteID "
-                           + " WHERE (PlanEmpresa.EstadoProximo = 1)" + ViewState["sWhere"]+" AND (PlanEmpresa.EstadoProximo = 1)";
+                           + " WHERE (PlanEmpresa.EstadoProximo = 1)" + ViewState["sWhere"]+" ";
                 int tamVectorn= int.Parse(Utilidades.EjeSQL(sSelectSQL, cn, ref Err, true));
                 vectorUsuariosID = new string[tamVectorn];
                 //2. Insertamos los planes.....

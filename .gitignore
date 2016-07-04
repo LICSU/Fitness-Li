@@ -1,0 +1,5 @@
+*.dll
+*.Cache
+obj/Release/LicsuWeb.csproj.FileListAbsolute.txt
+*.cache
+LicsuWeb.csproj

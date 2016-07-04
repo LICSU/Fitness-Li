@@ -165,6 +165,7 @@
     <Content Include="css\index.css" />
     <Content Include="css\site_global.css" />
     <Content Include="Validado\CalificacionesAlumno.aspx" />
+    <Content Include="Validado\calificacionesProfesor.aspx" />
     <Content Include="Validado\cargarEmpresa.aspx" />
     <Content Include="Validado\cargarVideosAdmin.aspx" />
     <Content Include="Validado\ClasesHistorico.aspx" />
@@ -534,6 +535,13 @@
     </Compile>
     <Compile Include="Validado\CalificacionesAlumno.aspx.designer.cs">
       <DependentUpon>CalificacionesAlumno.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Validado\calificacionesProfesor.aspx.cs">
+      <DependentUpon>calificacionesProfesor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Validado\calificacionesProfesor.aspx.designer.cs">
+      <DependentUpon>calificacionesProfesor.aspx</DependentUpon>
     </Compile>
     <Compile Include="Validado\cargarEmpresa.aspx.cs">
       <DependentUpon>cargarEmpresa.aspx</DependentUpon>

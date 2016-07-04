@@ -62,6 +62,24 @@
                     </div>
                     <div class="col-lg-12">
                         <div class="form-group">
+<<<<<<< HEAD
+=======
+                            <label class="control-label col-xs-3">Filtrar por Estado: </label>
+                            <div class="col-xs-5">
+                                <asp:DropDownList ID="dplEstado" runat="server" CssClass="form-control">
+                                    <asp:ListItem Text="Todos" Value=""></asp:ListItem>
+                                    <asp:ListItem Text="Activos" Value="1"></asp:ListItem>
+                                    <asp:ListItem Text="Inactivos" Value="0"></asp:ListItem>
+                                </asp:DropDownList>
+                            </div>
+                            <div class="col-xs-4">
+                                <asp:Button ID="btnEstados" runat="server" Text="Filtrar"  CssClass="btn btn-purple"  OnClick="btnEstados_Click"/>                                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="form-group">
+>>>>>>> origin/master
                             <label class="control-label col-xs-3">Filtrar por Fecha: </label>
                             <div class="col-xs-5">
                                 <div class="col-xs-6">

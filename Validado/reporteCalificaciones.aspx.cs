@@ -198,5 +198,21 @@ namespace LicsuWeb.Validado
             GridView1.PageIndex = e.NewPageIndex;
             BindGridView();
         }
+<<<<<<< HEAD
+=======
+
+        protected void btnEstados_Click(object sender, EventArgs e)
+        {
+            if (dplUnidad.SelectedValue != "")
+            {
+                ViewState["FiltroEmpresa"] = " AND (Alumno_Nivel_Clase.ClaseID = " + dplUnidad.SelectedValue + ")";
+            }
+            else
+            {
+                MostrarMsjModal("Seleccione un valor de la lista", "ERR");
+            }
+            BindGridView();
+        }
+>>>>>>> origin/master
     }
 }
