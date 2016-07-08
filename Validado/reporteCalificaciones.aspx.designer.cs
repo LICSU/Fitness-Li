@@ -94,27 +94,6 @@ namespace LicsuWeb.Validado {
         protected global::System.Web.UI.WebControls.Button Buscar;
         
         /// <summary>
-<<<<<<< HEAD
-=======
-        /// Control dplEstado.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList dplEstado;
-        
-        /// <summary>
-        /// Control btnEstados.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnEstados;
-        
-        /// <summary>
->>>>>>> origin/master
         /// Control Label1.
         /// </summary>
         /// <remarks>
